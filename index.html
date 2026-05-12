@@ -1,0 +1,417 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>iAquila — IA pericial pra vistoria veicular | Detecção de adulteração de chassi</title>
+<meta name="description" content="Sistema forense de detecção de adulteração de chassi com IA proprietária da Áquila Perícia. 97% de acurácia. Integra com ECVs e DETRANs.">
+<meta name="theme-color" content="#1d4ed8">
+<meta property="og:title" content="iAquila — IA pericial pra ECVs e DETRANs">
+<meta property="og:description" content="Detecte adulteração de chassi em 3 segundos com IA pericial da Áquila Perícia.">
+<meta property="og:image" content="https://iaquila.suporteleiloes.com.br/icon-512.png">
+
+<link rel="icon" type="image/x-icon" href="/app/favicon.ico?v=3">
+<link rel="icon" type="image/png" sizes="32x32" href="/app/favicon-32.png?v=3">
+<link rel="icon" type="image/png" sizes="16x16" href="/app/favicon-16.png?v=3">
+<link rel="apple-touch-icon" sizes="180x180" href="/app/apple-touch-icon.png?v=3">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap">
+
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ============ NAV ============ -->
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="/" class="nav-logo">
+      <img src="/app/iaquila-logo.png" alt="iAquila"/>
+    </a>
+    <div class="nav-links">
+      <a href="#como">Como funciona</a>
+      <a href="#recursos">Recursos</a>
+      <a href="#preco">Preço</a>
+      <a href="#faq">Perguntas</a>
+      <a href="/app/" class="nav-cta">Acessar console</a>
+    </div>
+  </div>
+</nav>
+
+<!-- ============ HERO ============ -->
+<section class="hero">
+  <div class="container hero-grid">
+    <div>
+      <h1 class="hero-title">
+        Detecte adulteração de chassi <span class="accent">em 3 segundos</span> — com IA pericial.
+      </h1>
+      <p class="hero-sub">
+        iAquila é a plataforma forense que ECVs e DETRANs usam pra aumentar 5× a velocidade de vistoria. Análise visual com IA proprietária treinada em 13 mil casos reais.
+      </p>
+      <div class="hero-ctas">
+        <a href="#preco" class="btn btn-primary">
+          Ver planos
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16"><path d="M5 12h14M13 5l7 7-7 7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+        <a href="https://wa.me/553899507998?text=Quero%20agendar%20demo%20do%20iAquila" class="btn btn-secondary" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M20.52 3.48A11.94 11.94 0 0012 0C5.37 0 .03 5.37.03 12c0 2.11.55 4.18 1.61 6L0 24l6.16-1.62A11.93 11.93 0 0012 24c6.63 0 12-5.37 12-12 0-3.21-1.25-6.22-3.48-8.52zM12 22a9.97 9.97 0 01-5.08-1.39l-.36-.21-3.65.96.97-3.55-.23-.37A9.97 9.97 0 0112 2c5.51 0 10 4.49 10 10s-4.49 10-10 10z"/></svg>
+          Agendar demo
+        </a>
+      </div>
+      <div class="hero-trust">
+        <div class="hero-trust-item">
+          <span class="hero-trust-num">97%</span>
+          <span class="hero-trust-label">Acurácia técnica</span>
+        </div>
+        <div class="hero-trust-item">
+          <span class="hero-trust-num">13k</span>
+          <span class="hero-trust-label">Casos no dataset</span>
+        </div>
+        <div class="hero-trust-item">
+          <span class="hero-trust-num">3s</span>
+          <span class="hero-trust-label">Análise por foto</span>
+        </div>
+        <div class="hero-trust-item">
+          <span class="hero-trust-num">LGPD</span>
+          <span class="hero-trust-label">Compliance pronto</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-visual">
+      <div class="mockup">
+        <div class="mockup-head">
+          <span></span><span></span><span></span>
+        </div>
+        <div class="mockup-body">
+          <span class="mockup-eyebrow">Resultado da análise</span>
+          <div class="mockup-verdict">Adulterado</div>
+          <div class="mockup-conf"><strong>92,4%</strong> de confiança</div>
+          <div class="mockup-bar"><div class="mockup-bar-fill"></div></div>
+          <div class="mockup-reasoning">
+            <span class="mockup-reasoning-label">Análise pericial</span>
+            Gravação dot-matrix com pontos de tamanhos e profundidades irregulares, baseline torta. Oxidação concentrada sobre os caracteres — indício de raspagem química seguida de repunção manual.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ LOGOS ============ -->
+<section class="logos-bar">
+  <div class="container">
+    <p class="logos-bar-title">Em uso e validação por</p>
+    <div class="logos-row">
+      <span>Áquila Perícia</span>
+      <span>+ ECVs piloto RJ</span>
+      <span>Rede credenciada DETRAN/RJ</span>
+    </div>
+  </div>
+</section>
+
+<!-- ============ COMO FUNCIONA ============ -->
+<section class="section" id="como">
+  <div class="container">
+    <div class="section-head fade-in">
+      <span class="section-eyebrow">Como funciona</span>
+      <h2 class="section-title">3 passos pra mudar a vistoria</h2>
+      <p class="section-sub">Do clique na câmera ao laudo pericial assinado — em menos de 1 minuto.</p>
+    </div>
+    <div class="steps">
+      <div class="step fade-in">
+        <div class="step-num">1</div>
+        <h3>Capture</h3>
+        <p>Vistoriador fotografa o chassi pelo app mobile (Android/iOS). GPS, horário e identidade do operador embutidos automaticamente.</p>
+      </div>
+      <div class="step fade-in">
+        <div class="step-num">2</div>
+        <h3>Análise</h3>
+        <p>A IA proprietária classifica em <strong>regular, oxidado ou adulterado</strong> em 3 segundos.</p>
+      </div>
+      <div class="step fade-in">
+        <div class="step-num">3</div>
+        <h3>Laudo</h3>
+        <p>Perito revisa, ajusta se preciso e assina. Laudo formal, GPS, foto e trilha de auditoria salvos pra defesa jurídica.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ RECURSOS ============ -->
+<section class="section section-alt" id="recursos">
+  <div class="container">
+    <div class="section-head fade-in">
+      <span class="section-eyebrow">Recursos</span>
+      <h2 class="section-title">Tudo o que sua ECV precisa</h2>
+      <p class="section-sub">Plataforma completa, do campo ao laudo final, com a robustez que perícia exige.</p>
+    </div>
+    <div class="features">
+      <div class="feature fade-in">
+        <div class="feature-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M21 16V8a2 2 0 0 0-1-1.7l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.7l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z" stroke-linejoin="round"/></svg>
+        </div>
+        <h3>IA proprietária</h3>
+        <p>Modelo YOLOv11 treinado em 13.132 casos reais da Áquila Perícia. Não é OpenAI genérico — é seu dataset, seu padrão pericial.</p>
+      </div>
+      <div class="feature fade-in">
+        <div class="feature-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M9 11H5a2 2 0 0 0-2 2v7a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7a2 2 0 0 0-2-2h-4M9 11V7a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v4M9 11h6"/></svg>
+        </div>
+        <h3>Análise técnica automática</h3>
+        <p>Texto pericial gerado em 3s, justificando os sinais visíveis (raspagem, oxidação, dotagem, transplante). Pronto pra copiar pro laudo.</p>
+      </div>
+      <div class="feature fade-in">
+        <div class="feature-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="5" y="2" width="14" height="20" rx="3"/><line x1="12" y1="18" x2="12" y2="18"/></svg>
+        </div>
+        <h3>App mobile + Console web</h3>
+        <p>Vistoriador no campo com app Android/iOS. Coordenação e gestão pelo console web. Trabalham juntos em tempo real.</p>
+      </div>
+      <div class="feature fade-in">
+        <div class="feature-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+        <h3>Trilha de auditoria</h3>
+        <p>GPS, horário, dispositivo, vistoriador. Todo laudo tem evidência probatória pra defesa jurídica em juízo.</p>
+      </div>
+      <div class="feature fade-in">
+        <div class="feature-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 8c0-1.1.9-2 2-2h14a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8z"/><path d="M3 8l9 6 9-6"/></svg>
+        </div>
+        <h3>API + integrações</h3>
+        <p>REST API pra integrar com seu sistema. Webhooks pra eventos. Pronto pra DETRAN/SISCONTRAN sob demanda.</p>
+      </div>
+      <div class="feature fade-in">
+        <div class="feature-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M9 12l2 2 4-4"/></svg>
+        </div>
+        <h3>LGPD-ready</h3>
+        <p>Consentimento explícito, retenção configurável, anonimização, política pronta. Compliance pra DPO da sua empresa.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PERITO HIGHLIGHT ============ -->
+<section class="section section-dark">
+  <div class="container">
+    <div class="highlight">
+      <div class="highlight-grid">
+        <div>
+          <span class="section-eyebrow">Quem treinou</span>
+          <h2>Construído sobre <strong>conhecimento pericial real</strong>.</h2>
+          <p>iAquila não é IA genérica. É um sistema construído sobre o conhecimento técnico da Áquila Perícia, com vistorias periciais documentadas.</p>
+          <p>Cada uma das 13 mil fotos do dataset foi catalogada por especialistas. Cada padrão de adulteração identificado é validado por critério forense.</p>
+          <ul>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              Dataset proprietário curado por especialistas em perícia
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              Auditoria pericial assinada disponível como serviço
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              Padrão técnico compatível com perícia forense
+            </li>
+          </ul>
+        </div>
+        <div class="highlight-stats">
+          <div class="highlight-stat">
+            <div class="highlight-stat-num">13.132</div>
+            <div class="highlight-stat-label">Casos no dataset proprietário</div>
+          </div>
+          <div class="highlight-stat">
+            <div class="highlight-stat-num">97%</div>
+            <div class="highlight-stat-label">Acurácia em produção</div>
+          </div>
+          <div class="highlight-stat">
+            <div class="highlight-stat-num">3s</div>
+            <div class="highlight-stat-label">Tempo médio por análise</div>
+          </div>
+          <div class="highlight-stat">
+            <div class="highlight-stat-num">100%</div>
+            <div class="highlight-stat-label">Validado por padrão pericial</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PRICING ============ -->
+<section class="section section-alt" id="preco">
+  <div class="container">
+    <div class="section-head fade-in">
+      <span class="section-eyebrow">Preço</span>
+      <h2 class="section-title">Planos simples, ROI imediato</h2>
+      <p class="section-sub">A primeira ECV piloto pagou o software em 11 dias. Comece pelo plano certo pro seu volume.</p>
+    </div>
+    <div class="pricing-grid">
+
+      <div class="price-card fade-in">
+        <div class="price-name">Starter</div>
+        <div class="price-value">R$ 1.490<small>/mês</small></div>
+        <p class="price-desc">ECV pequena, até 5 vistoriadores e 500 análises/mês.</p>
+        <ul class="price-features">
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5" stroke-linecap="round" stroke-linejoin="round"/></svg> App mobile (Android/iOS)</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5" stroke-linecap="round" stroke-linejoin="round"/></svg> Console web admin</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5" stroke-linecap="round" stroke-linejoin="round"/></svg> IA classificadora própria</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5" stroke-linecap="round" stroke-linejoin="round"/></svg> GPS + trilha auditoria</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5" stroke-linecap="round" stroke-linejoin="round"/></svg> Suporte por WhatsApp</li>
+        </ul>
+        <a href="https://wa.me/553899507998?text=Quero%20o%20plano%20Starter" class="btn btn-secondary">Começar</a>
+      </div>
+
+      <div class="price-card featured fade-in">
+        <span class="price-badge">Mais escolhido</span>
+        <div class="price-name">Pro</div>
+        <div class="price-value">R$ 3.990<small>/mês</small></div>
+        <p class="price-desc">ECV média, até 20 vistoriadores e 2.000 análises/mês.</p>
+        <ul class="price-features">
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5" stroke-linecap="round" stroke-linejoin="round"/></svg> Tudo do Starter +</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5" stroke-linecap="round" stroke-linejoin="round"/></svg> <strong>Texto pericial automático</strong></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5" stroke-linecap="round" stroke-linejoin="round"/></svg> Painel de revisão IA</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5" stroke-linecap="round" stroke-linejoin="round"/></svg> Exportação .csv / .xlsx</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5" stroke-linecap="round" stroke-linejoin="round"/></svg> Suporte prioritário</li>
+        </ul>
+        <a href="https://wa.me/553899507998?text=Quero%20o%20plano%20Pro" class="btn btn-primary">Começar</a>
+      </div>
+
+      <div class="price-card fade-in">
+        <div class="price-name">Business</div>
+        <div class="price-value">R$ 11.990<small>/mês</small></div>
+        <p class="price-desc">ECV grande ou rede, vistorias ilimitadas + API.</p>
+        <ul class="price-features">
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5" stroke-linecap="round" stroke-linejoin="round"/></svg> Tudo do Pro +</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5" stroke-linecap="round" stroke-linejoin="round"/></svg> Vistorias ilimitadas</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5" stroke-linecap="round" stroke-linejoin="round"/></svg> API REST + webhooks</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5" stroke-linecap="round" stroke-linejoin="round"/></svg> White-label (sua marca)</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5" stroke-linecap="round" stroke-linejoin="round"/></svg> SLA 99,5% + gerente conta</li>
+        </ul>
+        <a href="https://wa.me/553899507998?text=Quero%20o%20plano%20Business" class="btn btn-secondary">Falar com vendas</a>
+      </div>
+
+    </div>
+    <p style="text-align:center; margin-top:32px; color:var(--slate-600); font-size:15px;">
+      Atende DETRAN/governo? Temos plano <strong>Government</strong> com self-hosted e SLA dedicado. <a href="https://wa.me/553899507998?text=Quero%20o%20plano%20Government">Fale com a gente</a>.
+    </p>
+  </div>
+</section>
+
+<!-- ============ FAQ ============ -->
+<section class="section" id="faq">
+  <div class="container">
+    <div class="section-head fade-in">
+      <span class="section-eyebrow">Perguntas</span>
+      <h2 class="section-title">Dúvidas frequentes</h2>
+    </div>
+    <div class="faq">
+      <details class="faq-item fade-in">
+        <summary class="faq-question">
+          Quanto tempo pra colocar pra rodar na minha ECV?
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </summary>
+        <p class="faq-answer">Setup em 1 dia. Criamos sua conta, adicionamos os vistoriadores, treinamos a equipe em 30 minutos e já está rodando. Sem servidor pra instalar, sem hardware extra.</p>
+      </details>
+      <details class="faq-item fade-in">
+        <summary class="faq-question">
+          E se a internet cair no campo?
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </summary>
+        <p class="faq-answer">O app mobile salva a foto e o GPS localmente. Quando a internet voltar, sincroniza automaticamente. Não perde laudo.</p>
+      </details>
+      <details class="faq-item fade-in">
+        <summary class="faq-question">
+          Os dados ficam onde? Posso confiar?
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </summary>
+        <p class="faq-answer">Servidores no Brasil, criptografia em trânsito e em repouso, política LGPD assinada. Plano Government oferece self-hosted (na sua infra).</p>
+      </details>
+      <details class="faq-item fade-in">
+        <summary class="faq-question">
+          Vocês têm trial grátis?
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </summary>
+        <p class="faq-answer">Sim, 3 dias grátis nos planos Starter e Pro. Sem cartão de crédito. Cancelamento a qualquer momento.</p>
+      </details>
+      <details class="faq-item fade-in">
+        <summary class="faq-question">
+          Funciona pra moto, caminhão, ônibus?
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </summary>
+        <p class="faq-answer">Sim. O dataset cobre carros, motos, caminhões e ônibus. Padrão de gravação OEM de cada montadora está catalogado.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FINAL CTA ============ -->
+<section class="section">
+  <div class="container">
+    <div class="final-cta fade-in">
+      <h2>Pronto para elevar a eficiência das vistorias?</h2>
+      <p>Agende uma demonstração de 20 minutos e descubra como a iAquila analisa, em segundos, detalhes que normalmente exigem minutos de validação técnica.</p>
+      <a href="https://wa.me/553899507998?text=Quero%20demo%20do%20iAquila" class="btn btn-primary" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M20.52 3.48A11.94 11.94 0 0012 0C5.37 0 .03 5.37.03 12c0 2.11.55 4.18 1.61 6L0 24l6.16-1.62A11.93 11.93 0 0012 24c6.63 0 12-5.37 12-12 0-3.21-1.25-6.22-3.48-8.52z"/></svg>
+        Agendar demo agora
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-col">
+        <h4>Produto</h4>
+        <ul>
+          <li><a href="#como">Como funciona</a></li>
+          <li><a href="#recursos">Recursos</a></li>
+          <li><a href="#preco">Preço</a></li>
+          <li><a href="/app/">Acessar console</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Empresa</h4>
+        <ul>
+          <li><a href="#">Áquila Perícia</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="https://wa.me/553899507998">Contato</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Legal</h4>
+        <ul>
+          <li><a href="/politica-privacidade.html">Política de privacidade</a></li>
+          <li><a href="/termos-de-uso.html">Termos de uso</a></li>
+          <li><a href="#">LGPD</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 iAquila. Todos os direitos reservados.</span>
+      <span>Crafted by the <a href="https://tiagofelipe.com" target="_blank" rel="noopener" style="color: var(--slate-300); text-decoration: none;">tiagofelipe.com</a> Team</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+// Fade in on scroll
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('visible');
+      observer.unobserve(entry.target);
+    }
+  });
+}, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
+
+document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+</script>
+
+</body>
+</html>
